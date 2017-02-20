@@ -4,7 +4,9 @@
     "image":"wiki-notation-guide.png",
     "sources":[{
         "name":"tracwiki-notation-guide.tracwiki",
-        "action":"generate"
+        "action":"generate",
+        "rootFolder":"WikiContent",
+        "rename":"%s"
     }],
     "parameters":[{
         "name":"name",
